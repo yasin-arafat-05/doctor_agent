@@ -1,0 +1,22 @@
+[project]
+name = "kuet-ai-hackthon"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "alembic>=1.18.4",
+    "asyncpg>=0.31.0",
+    "fastapi>=0.138.0",
+    "jose>=1.0.0",
+    "jwt>=1.4.0",
+    "psycopg>=3.3.4",
+    "psycopg-pool>=3.3.1",
+    "psycopg2>=2.9.12",
+    "pwdlib[argon2]>=0.3.0",
+    "pydantic-settings>=2.14.2",
+    "pydantic[email]>=2.13.4",
+    "python-multipart>=0.0.32",
+    "sqlalchemy>=2.0.51",
+    "uvicorn[standard]>=0.49.0",
+]
